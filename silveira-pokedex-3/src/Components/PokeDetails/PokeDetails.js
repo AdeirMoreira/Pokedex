@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { PokemonList } from '../GlobalStates/contexts'
 import Header from '../Header/Header'
-import { SuperContainerMaster, ContainerMaster, Photo1, Photo2, Stats, Types, Moves, ContainerTitulo } from '../PokeDetails/styledPokeDetails'
+import { SuperContainerMaster, ContainerMaster, Photo1, Photo2, Stats, Types, Moves, ContainerTitulo, Buttons } from '../PokeDetails/styledPokeDetails'
 
 
 const PokeDetails = () => {
@@ -39,15 +39,17 @@ const PokeDetails = () => {
                <h1>{params.PokeDetails[0].name}</h1>
                {inPokedex ?
                   <div>
-                     <button
+                     <Buttons
                         onClick={() => treeFunctions(true)}>
-                        Adicionar a PokeDex</button>
+                        Adicionar a PokeDex
+                     </Buttons>
                   </div>
                   :
                   <div>
-                     <button
+                     <Buttons
                         onClick={() => treeFunctions(false)}>
-                        Remover da PokeDex</button>
+                        Remover da PokeDex
+                     </Buttons>
                   </div>
                }
             </ContainerTitulo>}
