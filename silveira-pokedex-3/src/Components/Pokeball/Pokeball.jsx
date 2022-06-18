@@ -12,26 +12,25 @@ export const ComponetPokeball = () => {
             case 'home':
                 return (
                     <div className='OpenPokeball'>
-                        <Link to='/pokemon/pokedex'><button> Entrar! </button></Link>
+                        <Link to='/pokemon/pokedex'><button className='NavigationButton'> Entrar! </button></Link>
                     </div>
                 )
             case 'MyPokeDex':
                 return (
                     <div className='OpenPokeball'>
-                        <Link to='/'><button> Home </button></Link>
-                        <Link to={-1}><button> Voltar </button></Link>
+                        <Link to={-1}><button className='NavigationButton'>Pokédex</button></Link>
                     </div>
                 )
             case 'PokeDetails':
                 return (
                     <div className='OpenPokeball' >
-                        <Link to={-1}><button> Voltar </button></Link>
+                        <Link to={-1}><button className='NavigationButton'> Voltar </button></Link>
                     </div>
                 )
             default:
                 return (
                     <div className='OpenPokeball'>
-                        <Link to='/pokemon/userpokedex'><button> Minha Pokédex </button></Link>
+                        <Link to='/pokemon/userpokedex'><button className='NavigationButton'>Meus pokemons</button></Link>
                     </div>
                 )
         }

@@ -81,3 +81,11 @@ justify-content: center;
 padding: 20px;
 grid-area: moves;
 `
+export const Buttons = styled.button`
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    border-radius: 10px;
+    
+`

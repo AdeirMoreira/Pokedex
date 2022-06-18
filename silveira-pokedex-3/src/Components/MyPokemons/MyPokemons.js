@@ -14,7 +14,7 @@ function MyPokeDex() {
   return (
     <SuperContainerMyPokemons>
       <Header />
-      <h2>My Pokemons</h2>
+      <h2>Meus Pokemons</h2>
       <ContainerMyPokemonsCards>
         <Card property={`MyPokemons`} />
       </ContainerMyPokemonsCards>

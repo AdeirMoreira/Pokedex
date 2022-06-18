@@ -6,7 +6,7 @@ export const ContainerCard = styled.div`
     align-items: center;
     border: 1px solid black;
     width: 300px;
-    height: 350px;
+    height: fit-content;
     padding: 10px;
     gap: 20px;
     justify-content: center;
@@ -26,8 +26,8 @@ export const ContainerCard = styled.div`
         gap: 30px;
         align-items: baseline;
         button{
-            height: 25px;
-            width: 5vw;
+            padding: 5px;
+            font-size: 20px;
             border: none;
             background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
             border-radius: 10px;

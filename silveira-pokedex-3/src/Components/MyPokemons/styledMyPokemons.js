@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SuperContainerMyPokemons = styled.div`
     h2{
         text-align: center;
-        font-size: 100px;
+        font-size: 80px;
     }
 `
 export const ContainerMyPokemonsCards = styled.div`

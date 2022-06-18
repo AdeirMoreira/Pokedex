@@ -8,13 +8,19 @@ export const GlobalState = (props) => {
     const [Menu, setMenu] = useState('')
     const [MyPokemons, setMyPokemons] = useState([])
     const [PokeDetails, setPokemonDetails] = useState({})
+    const [offset, setOffset] = useState(0) 
 
-    useEffect(() => GetAllPokemons(setPokemons, 20), [])
+    useEffect(() => GetAllPokemons(setPokemons,offset), [offset])
+    
+    const separetePokemonsInMyPokemons = (array) => {
+        const pIdsMyPok = MyPokemons.map(pokemon => pokemon.id)
+        return array.filter(pokemon => !pIdsMyPok.includes(pokemon.id))
+    }
 
     const getData = () => {
         const array = []
         Pokemons.forEach(pokemon => {
-            GetPokemonData(pokemon.name, array, setPokemonData)
+            GetPokemonData(pokemon.name, array, setPokemonData,separetePokemonsInMyPokemons)
         })
     }
 
@@ -60,6 +66,8 @@ export const GlobalState = (props) => {
         MyPokemons,
         getPokemonDetails,
         PokeDetails,
+        offset,
+        setOffset
     }
 
     return (
