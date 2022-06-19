@@ -27,7 +27,10 @@ Projeto desenvolvido durante o bootcamp desenvolvedor full-Stack [Labenu](https:
 
 -  [Styled-Components](https://styled-components.com/docs)
 
+<h2 id="desenvolvedores">👨‍💻 Desenvolvedores</h2>
+<table>         
+<td><a href="https://github.com/future4code/silveira-Adeir-Maia"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98994187?v=4" width="100px;" alt="Imagem profile Adeir Maia desenvolvedor"/><br /><sub><b>Adeir Maia </b></sub></a><br /> 
+<td><a href="https://github.com/future4code/silveira-Ariane-Mello"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98977257?s=400&u=6c7f069d8c85e34fdf6fd6f58bc0f0f989a6948e&v=4" width="100px;" alt="Imagem profile Ariane Mello desenvolvedora"/><br /><sub><b>Ariane Mello </b></sub></a><br /> 
+<td><a href="https://github.com/future4code/silveira-Eduardo-Osiro"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98972986?v=4" width="100px;" alt="Imagem profile Eduardo Osiro desenvolvedor"/><br /><sub><b>Eduardo Osiro </b></sub></a><br /> 
 
-
-
-
+</table>
