@@ -5,6 +5,9 @@
 ## 💻 Projeto
 Projeto desenvolvido durante o bootcamp desenvolvedor full-Stack [Labenu](https://www.labenu.com.br/curso-de-programacao-web-full-stack-integral). O aplicação consome dados sobre pokemons da API pública [PokéAPI](https://pokeapi.co/). Em seu desenvolvimento foram utilizadas as tecnologias **React.JS**, **JAVASCRIPT**, **HTML** **CSS** , além das blibliotecas **AXIOS**, **REACT-ROUTER-DOM** e **STYLED-COMPONENTS**, foram aplicados os conceitos de **EstadoGlobal do React**, **Requisições à API Rest** e **Paginação**, além de trabalho em equipe, planejamento e divisão das tarefas usando a metódologia **KABAM** por meio da plataforma trello. O Projeto consiste-se em 3 seções: a Pokedex - 20 pokemons são exibidos por página, podendo ser capturados em enviados para sua lista pessoal. Detalhes - página em que são exibidos os detalhes de um pokemom específico. Meus Pokemons - são exibidos os pokemons que você capturou. 
 
+<h2 id="link">🔗 Link surge: Link para visualização do site</h2>
+<h2><a href="https://pokedex-adeir-moreira-front-end.surge.sh/">Pokédex</a><h2>
+
 <h2 id="imagens">📱 Imagens do site</h2>
 <div align="center">
   <img height="180em" src="https://user-images.githubusercontent.com/98994187/174461045-7484c748-737e-4716-9401-5e047109e5ab.png"/>
